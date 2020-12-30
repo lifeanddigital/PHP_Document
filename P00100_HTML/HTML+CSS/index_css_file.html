@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<!-- FileName: http://localhost/HTML/css_file/index_css_file.html -->
+<!-- ColorRef: http://www.htmq.com/color/colorname.shtml -->
+
+<html lang="ja">
+    <head>
+        <title>index_css.html</title>
+
+        <!-- スタイルを記述 -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+        <!- スクリプトを記述 -->
+        <script>
+
+        </script>
+    </head>
+
+    <body>
+      <h1>見出し css H1 </h1>
+        <!-- H2 タイトルの記述 -->
+	<h2 class="sub_title">第一章</h2>
+
+        <!-- ブロックを記述 -->
+        <dev class="sub_comment">
+		HTMLの復習でdev タグとスタイルの関係を記述しています<br><br>
+		style で　セレクタ名{ プロパティ:値; } と定義すると記述方法を定義できます。<br>
+		body　で　dev class="XXXX" と記述すると<br>
+		style で　dev.XXXX{ プロパティ:値 }でスタイルを定義できます。
+        </dev>
+
+        <!-- H2 タイトルの記述 -->
+	<h2 class="sub_title">第二章</h2>
+
+        <!-- ブロックを記述 -->
+        <dev class="sub_comment">
+        	body　で　dev id="XXXX" とすると<br>
+ 		style で　#XXXX{ プロパティ:値 }でスタイルを定義できます。<br>
+		<br>
+		id    指定　#XXXX <br>
+		class 指定　.XXXX <br>
+		どちらでもスタイルを指定できますが<br>
+		id は同一ページ内で１度しか使用できません。<br>
+		同一の名前がある場合は、id が優先されます。<br>
+        </dev>
+
+	<p>
+	<dev id="icon_img">
+		画像などはid 指定にしましょう
+		<!-- img src="image_css.jpg" --><br>
+	</dev>
+	</P>
+    </body>
+
+</html>
