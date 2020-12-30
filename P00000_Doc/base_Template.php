@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- http://localhost/php/PHP_Document/P00000_Doc/base_Template.php -->
-<!-- http://lifeanddigital.net/php/PHP_Document/P00000_Doc/base_Template.php -->
+<!-- https://lifeanddigital.net/php/PHP_Document/P00000_Doc/base_Template.php -->
 <!-- FONT "Arial" -->
 
 <html lang="ja">
