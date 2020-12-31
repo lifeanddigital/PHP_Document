@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- http://localhost/php_Example/php0000_base.php -->
-<!-- http://lifeplan-it/php_Example/php0000_base.php -->
+<!-- http://localhost/php/PHP_Document/P00121_Comment/comment.php -->
+<!-- http://lifeanddigital.net/php/PHP_Document/P00121_Comment/comment.php -->
 <!-- FONT "Arial" -->
 
 <html lang="ja">
@@ -13,7 +13,7 @@
     </head>
 <body>
 <header>
-<h1>PHP エスケープシーケンス</h1>
+<h1>PHP コメントの書き方</h1>
 	<nav>
 	<ul>
 	<li><a href="#Overview_title">概要</a></li>
@@ -26,23 +26,30 @@
 </header>
 <main>
 
-<h2>PHP エスケープシーケンス</h2></header>
+<h2>PHP コメントの書き方</h2></header>
 <h3 id="Overview_title">概要</h3>
 <dev id="Overview_contents">
-	概要説明
+	PHP　のコメントの書き方のサンプルコードです。
 </dev>
 <!--more-->
 <h3 id="Explanation_title">解説</h3>
 <dev id="Explanation_contents">
      <pre>
-	解説の記述
+	コメントの記述方法
+	// 以降の行はコメントになる
+	#  以降の行はコメントになる
+	/* */ で囲まれた範囲はコメントになる 
      </pre>
 </dev>
 <h3 id="Source_title">ソースコード</h3>
 <dev id="Source_code">
      <pre id="block-code">
      <code>
-           ソースコード表記
+	// コメントのテスト
+	echo "test";
+	# echo "test";
+	// echo "test";
+	/* echo "test"; */
      </code>
      </pre>
 </dev>
@@ -50,9 +57,13 @@
 <h3 id="Execution_title">実行結果</h3>
 <dev id="Execution_result">
      <!-- PHPを記述 -->
-      <?php　
-	PHP
-      ?>
+	<?php
+	// コメントのテスト
+	echo "test";
+	# echo "test";
+	// echo "test";
+	/* echo "test"; */
+	?>
 </dev>
 </main>
 <footer>

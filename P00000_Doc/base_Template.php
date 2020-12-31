@@ -1,8 +1,9 @@
-<!DOCTYPE html>
+
 <!-- http://localhost/php/PHP_Document/P00000_Doc/base_Template.php -->
 <!-- https://lifeanddigital.net/php/PHP_Document/P00000_Doc/base_Template.php -->
 <!-- FONT "Arial" -->
 
+<!DOCTYPE html>
 <html lang="ja">
     <head>
         <META charset="UTF-8">
@@ -50,9 +51,7 @@
 <h3 id="Execution_title">実行結果</h3>
 <dev id="Execution_result">
      <!-- PHPを記述 -->
-      <?php　
-	PHP
-      ?>
+      <?php PHP ?>
 </dev>
 </main>
 <footer>

@@ -50,9 +50,7 @@
 <h3 id="Execution_title">実行結果</h3>
 <dev id="Execution_result">
      <!-- PHPを記述 -->
-      <?php　
-	PHP
-      ?>
+      <?php PHP Source ?>
 </dev>
 </main>
 <footer>
